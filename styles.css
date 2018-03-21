@@ -1,0 +1,71 @@
+div {
+    padding: 10px;
+    border: 15px double rgb(83, 56, 56);
+}
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 10 auto;
+	background-color: rgb(58, 57, 57);
+	font-size: 110%;
+}
+header,
+main,
+footer {
+	background-color: rgb(207, 206, 206);
+	font-size: 1.4em;
+}
+header {
+	margin: 1.4em;
+	text-align: center;
+	border: 15px double rgb(83, 56, 56);
+}
+
+h1, h2, h3 {
+	margin: 5;
+}
+
+h1 {
+	font-size: 2em;
+	margin:0;
+}
+section {
+	padding: 4px;
+	text-align: center;
+	margin: 1.875em;
+	border: 15px double rgb(83, 56, 56);
+	background-color: rgba(196, 190, 190, 0.61);
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+img {
+	width: 98.5%;
+	max-width: 100%;
+	border: 5px solid rgb(83, 56, 56);
+}
+.img_port {
+	width: 50%;
+	max-width: 60%;
+	border: 5px solid rgb(83, 56, 56);
+}
+#left-nav {
+	font-size: .7em;
+	text-align: center;
+}
+#right-nav {
+	padding: 15px;
+	font-size: .7em;
+}
+#reasons {
+	background-color: rgba(228, 222, 217, 0.685);
+	text-align: center;
+}
+#footy {
+	background-color: rgba(228, 222, 217, 0.685);
+}
